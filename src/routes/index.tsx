@@ -49,4 +49,6 @@ export const router = createBrowserRouter([
     path: '/test',
     element: <Test />,
   },
-])
+], {
+  basename: '/to-do-list',
+})
